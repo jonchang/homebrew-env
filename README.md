@@ -1,15 +1,14 @@
-# Jonchang Activate
+# Homebrew environments
 
-## How do I install these formulae?
-`brew install jonchang/activate/<formula>`
+This tap adds an external command to Homebrew supporting different environments.
 
-Or `brew tap jonchang/activate` and then `brew install <formula>`.
+1. `brew tap jonchang/env`
 
-Or install via URL (which will not receive updates):
+2. `brew env new testing`
 
-```
-brew install https://raw.githubusercontent.com/jonchang/homebrew-activate/master/Formula/<formula>.rb
-```
+3. `eval $(brew env activate testing)`
+
+4. `brew install hello`
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
